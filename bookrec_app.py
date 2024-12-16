@@ -3,6 +3,8 @@ from openai import OpenAI
 import os
 
 # Setting up OpenAI API key
+key = 'kHseFHDlnLYnN13GeyYop93mFg2OscByxICc2d_YwbuG4nJBLf3davUXSlaa_RM7_2lCoQcjk_T3BlbkFJNGKAEjQFc4MX_u7T16stSUI9hGZCjgr8Sxzp_uNyJd3N5cKKG7rwCIssC1sgGZw7ooNhXUMh0A'
+
 client = OpenAI(api_key=key)
 
 st.title('Book Recommendation Assistant 📚')
